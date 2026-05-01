@@ -1,0 +1,58 @@
+# OS and editor noise
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Logs and runtime output
+*.log
+logs/
+tmp/
+temp/
+*.pid
+*.seed
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+
+# Archives and generated packages
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# Language/tool caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+node_modules/
+dist/
+build/
+coverage/
+
+# Terraform and Ansible local state
+.terraform/
+*.tfstate
+*.tfstate.*
+*.retry
+
+# Local backups
+*.bak
+*.backup
+*.orig
